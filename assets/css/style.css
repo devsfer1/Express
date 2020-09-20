@@ -114,7 +114,7 @@ a {
 }
 
 .home__img--large {
-    background-image: url(../images/img-1.webp);
+    background-image: url(../images/img-1.jpg);
     grid-row: span 2;
     grid-column: span 2;
 }
