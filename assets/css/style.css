@@ -160,9 +160,10 @@ a {
     color: #ffffff;
     margin-bottom: 10px;
 }
+
 .img__text--large {
     color: #ffffff;
-    max-width: 40ch;
+    max-width: 20ch;
     margin-bottom: 10px;
 }
 
