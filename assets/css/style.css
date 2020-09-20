@@ -148,7 +148,6 @@ a {
 
 .img__title--large {
     color: #ffffff;
-    font-weight: ;
     font-size: 32px;    
 }
 
@@ -159,7 +158,7 @@ a {
 
 .img__text--large {
     color: #ffffff;
-    max-width: 60ch;
+    max-width: 40ch;
     margin-bottom: 10px;
 }
 
