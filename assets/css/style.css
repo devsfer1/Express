@@ -106,37 +106,83 @@ a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
+    overflow: hidden;
 }
 
-.home__img {
+.img__home {
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 0 20px;
+    transition: .3s ease-in;
 }
 
-.home__img--large {
+.img__home:hover {
+    background-size: 200%;
+}
+
+.img__home--1 {
     background-image: url(../images/img-1.jpg);
-    grid-row: span 2;
-    grid-column: span 2;
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
 
-.home__img--medium {
-    grid-row: span 1;
+.img__home--2 {
+    background-image: url(../images/img-2.jpg);
 }
 
-.home__img:nth-child(2) {
-    background-image: url(../images/img-2.webp);
+.img__home--3 {
+    background-image: url(../images/img-3.jpg);
 }
 
-.home__img:nth-child(3) {
-    background-image: url(../images/img-3.webp);
+.img__home--4 {
+    background-image: url(../images/img-4.jpg);
 }
 
-.home__img:nth-child(4) {
-    background-image: url(../images/img-4.webp);
+.img__home--5 {
+    background-image: url(../images/img-5.jpg);
 }
 
-.home__img:nth-child(5) {
-    background-image: url(../images/img-5.webp);
+.img__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.img__title--large {
+    color: #ffffff;
+    font-weight: ;
+    font-size: 32px;    
+}
+
+.img__text {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.img__text--large {
+    color: #ffffff;
+    max-width: 60ch;
+    margin-bottom: 10px;
+}
+
+.img__link {
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    font-weight: 600;    
+    display: inline-block;
+    width: 100px;
+}
+
+.img__link::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    transition: width .4s;
+    background-color: #d62222;    
 }
 
 /* === Responsive === */
@@ -215,17 +261,22 @@ a {
 /* === Home === */
 @media(max-width: 1000px) {
     .home__container {
-        height: 150vh;
+        height: 250vh;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
     } 
 }
 
-@media(max-width: 600px)  {
+@media(max-width: 600px) {
     .home__container {
-        grid-template-columns: repeat(1, 2fr);
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: repeat(1, 1fr);        
     }
 
+    .img__home--1 {
+        grid-column: 1/1;
+        grid-row: 1/4;
+    }    
 }
+
+
 
