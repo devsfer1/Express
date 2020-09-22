@@ -214,6 +214,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
     grid-gap: 25px;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .product {
@@ -250,6 +251,19 @@ a {
     color: #1a1a1a;
     font-weight: 600;
     font-size: 14px;
+}
+
+/* === Banner === */
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner__img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
 }
 
 /* === Responsive === */
