@@ -255,9 +255,7 @@ a {
 
 /* === Banner === */
 .banner {
-    width: 100%;
     height: auto;
-    overflow: hidden;
 }
 
 .banner__img {
