@@ -176,6 +176,7 @@ a {
 }
 
 .home__link {
+    color: var(--black);
     text-transform: uppercase;
     letter-spacing: 0.1ch;
     font-weight: 600;    
@@ -221,16 +222,34 @@ a {
     text-align: center;
 }
 
+.product__name {
+    color: var(--dark-grey);
+    font-size: 14px;
+}
+
 .product__img {
     height: 400px;
     width: 100%;
     object-fit: cover;
 }
 
-.product__stars {
-    color: #E3C01C;
-    font-size: 8px;
-    margin-right: -4px;
+.product__look {
+    position: relative;
+}
+
+.product__icon {
+    position: absolute;
+    z-index: 1;
+    font-size: 24px;
+    top: 5px;
+    left: 10px;
+}
+
+.product__price {
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 /* === Responsive === */
