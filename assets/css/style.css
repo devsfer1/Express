@@ -261,7 +261,7 @@ a {
 .banner__img {
     object-fit: cover;
     object-position: center center;
-    width: 50%;
+    width: 100%;
 }
 
 /* === Responsive === */
