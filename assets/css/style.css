@@ -14,7 +14,6 @@ body {
 
 a {
     color: var(--shark);
-    display: block;
 }
 
 
@@ -179,7 +178,6 @@ a {
 
 .home__paragraph--large {
     color: var(--white);
-    max-width: 40ch;
     margin-bottom: 10px;
 }
 
