@@ -159,6 +159,7 @@ a {
     font-weight: 600;
     font-size: 24px;
     letter-spacing: 0.08ch; 
+    text-align: center;
 }
 
 .home__title--large {
@@ -179,6 +180,7 @@ a {
 .home__paragraph--large {
     color: var(--white);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .home__link {
