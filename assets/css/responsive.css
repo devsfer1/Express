@@ -10,7 +10,7 @@
         width: 35px;
         height: 35px;
         position: relative;
-        border: 1px solid var(--dark-grey);
+        border: 1px solid #1b1c1d;
     }
 
     .nav__menu:after {
@@ -94,4 +94,12 @@
     .related__container {
         grid-gap: 60px;
     }    
+}
+
+
+/* === Footer === */
+@media(max-width: 900px) {
+    .footer__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
