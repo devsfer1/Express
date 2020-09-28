@@ -4,6 +4,7 @@
     <img src="https://user-images.githubusercontent.com/58652794/94382999-29133e00-0115-11eb-9215-a0b39994e1da.gif">
 </p>
 <br>
+<p>Website responsivo criado com muito amor e carinho utilizando HTML e CSS3 puro. Utilizando recursos avançados de CSS para atingir os melhores resultados.</p>
 <br>
 <br>
 <h3> Metodologia BEM </h3>
