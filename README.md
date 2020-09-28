@@ -11,4 +11,4 @@
 <hr>
 <p>Com muito estudo e prática utilizei a metodologia BEM(Block Element Modifier) neste projeto, adaptando e fazendo algumas melhoras pessoais. Pude reutilizar diversos elementos e tornar o CSS muito mais legível e de fácil manutenção.</p>
     <img src="https://user-images.githubusercontent.com/58652794/94383383-43015080-0116-11eb-8c57-56a906213cf1.PNG">
-<h4 align="center"><a href="https://devsfe.github.io/cafeteria-blog-website/">Acesse a Demonstração aqui</a></h4>
+<h4 align="center"><a href="https://devsfe.github.io/express-shop-website/">Acesse a Demonstração aqui</a></h4>
